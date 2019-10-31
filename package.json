@@ -1,0 +1,38 @@
+{
+  "name": "@richi1717/easter-eggs",
+  "version": "1.0.5",
+  "description": "cheat code easter eggs",
+  "main": "public/bundle.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "dev": "webpack-dev-server --config webpack.config.js --mode development --open",
+    "postinstall": "webpack -p --config webpack.config.js"
+  },
+  "keywords": [
+    "Richi",
+    "Jeffery"
+  ],
+  "author": "Richi Jeffery",
+  "license": "MIT",
+  "prettier": {
+    "singleQuote": true
+  },
+  "devDependencies": {
+    "@babel/core": "7.6.4",
+    "@babel/preset-env": "7.6.3",
+    "autoprefixer": "9.7.0",
+    "babel-loader": "8.0.6",
+    "css-loader": "3.2.0",
+    "cssnano": "4.1.10",
+    "file-loader": "4.2.0",
+    "mini-css-extract-plugin": "0.8.0",
+    "postcss-loader": "3.0.0",
+    "sass": "1.23.2",
+    "sass-loader": "8.0.0",
+    "script-loader": "0.7.2",
+    "style-loader": "1.0.0",
+    "webpack": "4.41.2",
+    "webpack-cli": "3.3.10",
+    "webpack-dev-server": "3.9.0"
+  }
+}
