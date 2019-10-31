@@ -4,7 +4,7 @@
   "description": "cheat code easter eggs",
   "main": "public/bundle.js",
   "scripts": {
-    "build": "webpack --config webpack.config.js",
+    "build": "webpack -p --config webpack.config.js",
     "dev": "webpack-dev-server --config webpack.config.js --mode development --open",
     "postinstall": "webpack -p --config webpack.config.js"
   },
