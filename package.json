@@ -1,6 +1,6 @@
 {
   "name": "@richi1717/easter-eggs",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "description": "cheat code easter eggs",
   "main": "dist/bundle.js",
   "scripts": {
