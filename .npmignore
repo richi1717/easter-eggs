@@ -4,3 +4,6 @@ public/.DS_Store
 src
 .gitignore
 .git
+webpack.config.js
+postcss.config.js
+index.html

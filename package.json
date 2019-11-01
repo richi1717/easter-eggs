@@ -1,6 +1,6 @@
 {
   "name": "@richi1717/easter-eggs",
-  "version": "1.0.11",
+  "version": "1.0.17",
   "description": "cheat code easter eggs",
   "main": "dist/bundle.js",
   "scripts": {
@@ -31,6 +31,7 @@
     "sass-loader": "8.0.0",
     "script-loader": "0.7.2",
     "style-loader": "^1.0.0",
+    "url-loader": "^2.2.0",
     "webpack": "4.41.2",
     "webpack-cli": "3.3.10",
     "webpack-dev-server": "3.9.0"
