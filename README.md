@@ -19,11 +19,16 @@
 $ yarn add @richi1717/easter-eggs
 ```
 
-Then inside of your client entry point (E.G. `index.js`, `main.js`, `app.js`),  
-add `import '@richi1717/easter-eggs';`, that's it!
+Then inside of your client entry point (E.G. `index.js`, `main.js`, `app.js`), add 
 
-Now whenever someone enters the code in your app it will (I believe) an entertaining thing  
-happen. Don't worry, I added cleanup so it will remove itself from your app once the animation is over.
+```
+import '@richi1717/easter-eggs';
+```
+
+That's it!
+
+Now whenever someone enters the code in your app it will (I believe) have an entertaining thing happen. 
+Don't worry, I added cleanup so it will remove itself from your app once the animation is over.
 
 ### Available Codes
 
@@ -32,6 +37,8 @@ Currently the only available code is the [konami code](https://contra.fandom.com
 Konami: (`Start` would actually just be return/enter instead)  
 <img src="https://vignette.wikia.nocookie.net/contra/images/4/49/Konami_Code_-_01.jpg/revision/latest/scale-to-width-down/300?cb=20171125105020" alt="Konami Code" />
 
+When you enter the Konami code, velociryan will bounce in and out of the bottom of your app. 
+A DELIGHT if I may say so myself. 
 ### Enjoy
 
 This was written to mainly enter into the world of open source and npm. 
