@@ -1,6 +1,10 @@
 {
   "name": "@richi1717/easter-eggs",
   "version": "1.0.19",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/richi1717/easter-eggs"
+  },
   "description": "cheat code easter eggs",
   "main": "dist/bundle.js",
   "scripts": {
