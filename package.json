@@ -1,6 +1,6 @@
 {
   "name": "@richi1717/easter-eggs",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "description": "cheat code easter eggs",
   "main": "dist/bundle.js",
   "scripts": {
@@ -9,8 +9,15 @@
     "prepublish": "yarn build"
   },
   "keywords": [
-    "Richi",
-    "Jeffery"
+    "richi",
+    "jeffery",
+    "konami",
+    "easter",
+    "egg",
+    "eggs",
+    "cheat",
+    "codes",
+    "richi1717"
   ],
   "author": "Richi Jeffery",
   "license": "MIT",
