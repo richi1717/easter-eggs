@@ -56,14 +56,38 @@ function createVelociRyan() {
   cleanUp(id, velociryan);
 }
 
+function createSonic() {
+  const { id } = document.body;
+  document.body.id = `sonic-container ${id}`;
+  const sonic = document.createElement('div');
+  sonic.id = 'sonic';
+  document.body.appendChild(sonic);
+
+  cleanUp(id, sonic);
+}
+
 function updateUI(keySequence) {
+  const velociryanId = document.getElementById('velociryan');
+  const sonicId = document.getElementById('sonic');
+
+  if (velociryanId || sonicId) {
+    console.warn('Please wait until animation is done');
+    return;
+  }
+
   const userInput = keySequence.join('').toLowerCase();
   const konamiCode =
     'arrowuparrowuparrowdownarrowdownarrowleftarrowrightarrowleftarrowrightbaenter';
+  const sonicCode = 'arrowupcarrowdowncarrowleftcarrowrightcaenter';
   const isKonamiCode = userInput === konamiCode;
+  const isSonicCode = userInput === sonicCode;
+
+  if (isSonicCode) {
+    return createSonic();
+  }
 
   if (isKonamiCode) {
-    createVelociRyan();
+    return createVelociRyan();
   }
 }
 

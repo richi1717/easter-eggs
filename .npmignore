@@ -7,3 +7,4 @@ src
 webpack.config.js
 postcss.config.js
 index.html
+*.gif
